@@ -1,0 +1,132 @@
+/*@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('fonts/Montserrat-Regular.woff') format('woff'), url('fonts/Montserrat-Regular.ttf') format('truetype'), url('fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('fonts/Montserrat-Bold.woff') format('woff'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+h1 {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 19px;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+.fixed-container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.top-bar {
+	display: inline-block;
+	width: 100%;
+	padding: 15px 0 12px;
+}
+
+	.logo {
+		float: left;
+	}
+
+	.nav-sign-bar {
+		float: right;
+		display: flex;
+	}
+
+		.menu {
+			margin: 10px 0;
+		}
+
+			.menu a+a {
+				margin-left: 20px;
+				text-decoration: none;
+			}
+
+			.menu a {
+				text-decoration: none;
+			}
+
+			.menu a:first-child {
+				font-size: 14px;
+				font-weight: 700;
+			}
+
+			.menu img {
+				margin-right: 20px;
+				margin-left: 6px;
+			}
+
+		.sing-in, .sing-up {
+			text-transform: uppercase;
+			border-radius: 22px;
+		}
+
+		.sing-in:active, .sing-up:active, .sing-in:focus, .sing-up:focus {
+			outline: none;
+		}
+
+		.sing-in {
+			background-color: white;
+			border: 2px solid #BC9CFF;
+			color: #BC9CFF;
+			margin: 0;
+			padding: 6px 19px 8px 18px;
+		}
+
+		.sing-up {
+			border: none;
+			background-color: #BC9CFF;
+			color: white;
+			margin: 0;
+			margin-left: 16px;
+			padding: 8px 20px 10px;
+		}
+
+		.sign-prof {
+			border-left: 1px solid rgba(31, 32, 65, 0.1);
+			padding-left: 20px;
+			padding-top: 10px;
+			display: none;
+		}
+
+			.sign-prof a {
+				text-decoration: none;
+			}
