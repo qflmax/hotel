@@ -135,6 +135,45 @@ img {
 				text-decoration: none;
 			}
 
+/*------------------------------МЕИН КОНТЕЙНЕР----------------------------------------------------*/
+
+.main-box {
+	position: relative;
+}
+
+.room-search {
+	position: absolute;
+	top: 70px;
+	left: 140px;
+	width: 320px;
+	background-color: #fff;
+	padding: 40px 30px 30px;
+	border-radius: 4px;
+}
+
+.arrival {
+	display: flex;
+	justify-content: space-between;
+}
+
+.arrive {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+}
+
+.guests {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.slide {
+	width: 100%;
+}
+
+/*------------------------------МЕИН КОНТЕЙНЕР----------------------------------------------------*/
+
 /*------------------------------ФУТЕР----------------------------------------------------*/
 
 .footer-bar {
