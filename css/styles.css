@@ -56,6 +56,8 @@ img {
 	margin: 0 auto;
 }
 
+/*------------------------------ТОП БАР----------------------------------------------------*/
+
 .top-bar {
 	display: inline-block;
 	width: 100%;
@@ -82,11 +84,13 @@ img {
 
 			.menu a {
 				text-decoration: none;
+				color: rgba(31, 32, 65, 0.5);
 			}
 
 			.menu a:first-child {
 				font-size: 14px;
 				font-weight: 700;
+				color: rgba(31, 32, 65, 0.75);
 			}
 
 			.menu img {
@@ -130,3 +134,101 @@ img {
 			.sign-prof a {
 				text-decoration: none;
 			}
+
+/*------------------------------ФУТЕР----------------------------------------------------*/
+
+.footer-bar {
+	margin: 100px 0;
+}
+
+.footer-bar .logo {
+	float: none;
+	margin-bottom: 20px;
+}
+
+.footer-bar {
+	display: flex;
+}
+
+.first-footer {
+	width: 260px;
+	margin-right: 40px;
+}
+
+.booking-footer {
+	color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-menu {
+	margin: 4px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-menu h3{
+	text-transform: uppercase;
+}
+
+.footer-menu li{
+	margin-top: 21px;
+}
+
+.footer-menu li a {
+	text-decoration: none;
+	color: rgba(31, 32, 65, 0.5);
+}
+
+.second-footer, .third-footer, .fourth-footer {
+	width: 200px;
+}
+
+.fifth-footer {
+	width: 260px;
+}
+
+.footer-email {
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.footer-email-text {
+	color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-email input[type='email'] {
+	border: none;
+	width: calc(100% - 15px - 31px);
+	padding: 12px 0 8px;
+	margin-left: 15px;
+}
+
+.footer-email input[type='email']::placeholder {
+	color: rgba(31, 32, 65, 0.25);
+}
+
+.footer-email input[type='email']:active,.footer-email input[type='email']:focus, .footer-email input[type='image']:active, .footer-email input[type='image']:focus {
+	outline: none;
+}
+
+.footer-email input[type='image'] {
+}
+
+.copyright-bar {
+	border-top: 1px solid rgba(31, 32, 65, 0.05);
+}
+
+.copyright {
+	float: left;
+	margin: 26px 0;
+	color: rgba(31, 32, 65, 0.75);
+}
+
+.socicons {
+	float: right;
+	margin: 23px 0;
+}
+
+.socicons a {
+	margin-left: 20px;
+}
