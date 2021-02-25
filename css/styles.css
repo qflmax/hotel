@@ -151,9 +151,17 @@ img {
 	border-radius: 4px;
 }
 
+.input-style {
+	padding: 13px 0 13px 15px;
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
 .arrival {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 20px;
 }
 
 .arrive {
@@ -166,10 +174,31 @@ img {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	margin: 20px 0 30px;
 }
 
 .slide {
 	width: 100%;
+}
+
+.big-button {
+	width: 100%;
+	padding: 14px 0 15px;
+	border: none;
+	border-radius: 22px;
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.right-buttom-text {
+	position: absolute;
+	bottom: 18px;
+	right: 360px;
+	text-align: right;
+	width: 290px;
+	color: rgba(31, 32, 65, 0.75);
 }
 
 /*------------------------------МЕИН КОНТЕЙНЕР----------------------------------------------------*/
@@ -227,7 +256,7 @@ img {
 
 .footer-email {
 	width: 100%;
-	border: 1px solid black;
+	border: 1px solid rgba(31, 32, 65, 0.25);
 	border-radius: 4px;
 }
 
